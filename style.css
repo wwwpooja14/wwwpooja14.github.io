@@ -92,7 +92,6 @@ h2{
     margin: auto;
     background: teal;
     overflow: auto;
-    display: ;
 }
 .image{
     margin: 5px;
@@ -113,4 +112,21 @@ h2{
 .text:hover{
     color: white;
     background-color: black;
+}
+.footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(48, 44, 44);
+}
+.footer contact link{
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+i{
+    color: white;
+    font-size: 12px;
+}
+a{
+    color: white;
 }
