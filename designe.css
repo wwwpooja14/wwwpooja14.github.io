@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image:url(Surreal\ Photo\ Manipulations\ That\ I\ Created.jpg) ;
+    background-image:url(image/Surreal\ Photo\ Manipulations\ That\ I\ Created.jpg) ;
     background-size: 500px;
     ;
 }
@@ -17,6 +17,7 @@ body{
     
 }
 h2{
+    
     text-align: center;
     padding: 20px;
 
