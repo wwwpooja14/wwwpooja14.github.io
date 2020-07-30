@@ -95,7 +95,7 @@ h2{
     background: teal;
     overflow: auto;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 .image{
     margin: 5px;
