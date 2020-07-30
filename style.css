@@ -93,7 +93,7 @@ h2{
   /* width: 90px;*/
     margin: 0;
     background: teal;
-    overflow: auto;
+    
     display: flex;
     flex-wrap: wrap;
 }
