@@ -93,7 +93,7 @@ h2{
   /* width: 90px;*/
     margin: 0;
     background: teal;
-    
+    border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -123,11 +123,22 @@ h2{
     text-align: center;
     color: white;
     background-color: rgb(48, 44, 44);
+    width: 100%;
 }
-.footer contact link{
+.contact link{
     height: 40px;
     text-align: center;
     color: white;
+    font-size: 1em;
+    justify-self: start;
+    justify-content: space-between;
+}
+.contact link:hover{
+    color: rgb(48, 44, 44) ;
+    jus
+}
+h2{
+    background-color: rgb(48, 44, 44);
 }
 i{
     color: white;
@@ -135,4 +146,37 @@ i{
 }
 a{
     color: white;
+    
+}
+p{
+    font-size: 1.4em;
+}
+.button{
+    background-color: brown;
+    border: none;
+    color: cornsilk ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    display: center;
+    border-radius: 20px;
+    
+    margin-left: 20em;
+    margin-right: 20px;
+}
+hr{
+    background-color: red;
+}
+.page{
+font-weight: 300;
+display: flex;
+justify-content: space-evenly;
+padding: 2rem;
+background: var(--main-gray);
+border-top: 4px solid var(--main-red);
+background-color: rgb(48, 44, 44);
+font-size: 1.8rem;
+color: silver;
 }
