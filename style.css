@@ -12,6 +12,7 @@
     margin: "20px";*/
     justify-content: space-between;
     display: flex;
+    position: absolute fixed;
 }
 .flex-container nav{
     margin-top: 0px;
@@ -71,7 +72,7 @@ nav a:hover{
 .font div p{
     font-style: italic;
     color: rgb(234,60,83);
-    font-stretch: expanded;
+  
     
 }
 .section{
@@ -93,8 +94,8 @@ nav a:hover{
 }
 
 .container{
-   width: 90%;
-    background:  rgb(9, 87, 139);
+   width: 100%;
+    background-color:  rgb(9, 87, 139);
     border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
@@ -116,109 +117,34 @@ nav a:hover{
 .code{
     color:rgb(58, 49, 49);
     background-color:rgb(58, 49, 49);
+    transition: all color 500ms linear;
 }
 .code:hover{
-    background-color: black;
-    transition:color red 3s ease-out;
+    
+    
     color: red;
 }
 .text{
     padding: 1px;
     text-align: center;
-    font-size: 24px; 
-     margin-top: 2px;
+    font-size: 19px; 
+    font-style:'Poppins', sans-serif ;
+    /* margin-top: 2px;*/
      background-color: rgb(58, 49, 49);
+     color: whitesmoke;
+     padding-bottom: 14px;
+     padding-top: 14px;
+     transition: all color 500ms linear;
 }
 .text:hover{
-    color: white;
-    background-color: black;
-    transition-property: text;
-    transition-duration: 1s;
-
+    transition: color;
+}
+.contact{
+    width: 100%;
+    background-color:  rgb(9, 87, 139);;
 }
 
-.text1{
-    margin-top: 1px;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    background-color:rgb(58, 49, 49);
-    color: white;
 
-}
-.text1:hover{
-    background-color: black;
-    transition: ease-in;
-    
-}
-
-.text2{
-    margin-top: 1px;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(58, 49, 49);
-     color: white;
-}
-.text2:hover{
-    color: white;
-    background-color: black;
-}
-
-.text3{
-    margin-top: 1px;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(58, 49, 49);
-color: white;
-}
-.text3:hover{
-    color: white;
-    background-color: black;
-}
-
-.text4{
-    margin-top: 1px;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    background-color:rgb(58, 49, 49);
-    color: white;
-}
-.text4:hover{
-    color: white;
-    background-color: black;
-}
-
-.text5{
-    margin-top: 1px;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(58, 49, 49);
-    color: white;
-
-}
-.text5:hover{
-    color: white;
-    background-color: black;
-}
-
-.text6{
-    margin-top: 1px;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    background-color:rgb(58, 49, 49);
-    color: white;
-    
-}
-.text6:hover{
-    color: red;
-    background-color: black;
-    transition: color 3s ease-in-out;
-}
 .button{
     background-color:rgb(58, 49, 49);
     
@@ -232,8 +158,8 @@ color: white;
     font-size: 20px;
     display: center;
     border-radius: 7px;
-    
-    margin-left: 700px;
+    margin-top: 120px;
+    margin-left: 659px;
     margin-right: 20px;
 }
 .button:hover{
@@ -260,6 +186,7 @@ p{
     font-size: 20px;
     font-weight: 50;
     font-style: italic;
+    background-color: rgb(48, 44, 44) ;
 }
 
 .shop{
@@ -281,51 +208,7 @@ p{
     padding-top: 4px;
     padding-bottom: 4px;
 }
-.shop1{
-    color: whitesmoke;
-}
-.shop1:hover{
-    color: rgb(48, 44, 44) ;
-    transition: 6s ease-in-out ;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-.shop2{
-    color: whitesmoke;
-}
-.shop2:hover{
-    color: rgb(48, 44, 44) ;
-    transition: 6s ease-in-out ;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-.shop3{
-    color: whitesmoke;
-}
-.shop3:hover{
-    color: rgb(48, 44, 44) ;
-    transition: 6s ease-in-out ;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-.shop4{
-    color: whitesmoke;
-}
-.shop4:hover{
-    color: rgb(48, 44, 44) ;
-    transition: 6s ease-in-out ;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-.shop5{
-    color: whitesmoke;
-}
-.shop5:hover{
-    color: rgb(48, 44, 44) ;
-    transition: 6s ease-in-out ;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
+
 
 i{
     color: white;
