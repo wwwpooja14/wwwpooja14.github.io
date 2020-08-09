@@ -135,6 +135,7 @@ nav a:hover{
      padding-bottom: 14px;
      padding-top: 14px;
      transition: all color 500ms linear;
+     cursor: pointer;
 }
 .text:hover{
     transition: color;
