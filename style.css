@@ -190,24 +190,26 @@ p{
     background-color: rgb(48, 44, 44) ;
 }
 
-.shop{
+.shop div{
     color: whitesmoke;
     font-size: 22px;
+    width: 8oopx;
+    margin: auto;
     justify-content: space-between;
-    display: flex;
     padding-top: 50px;
-    margin-left: 45px;
-    margin-right: 45px;
-    padding-left: 250px;
-    padding-right: 250px;
-    text-decoration: none;
-    padding-bottom: 50px;
+    margin-left: 500px;
+   
 }
-.shop:hover{
-    color: rgb(48, 44, 44) ;
-    transition: 6s ease-in-out ;
-    padding-top: 4px;
-    padding-bottom: 4px;
+.shop a{
+    display: block;
+    float: left;
+    margin-left: 200px;
+   
+}
+.media:hover{
+    transition: padding 0.5s linear;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -223,19 +225,22 @@ a{
 }
 
 hr{
+    padding-top: 40px;
     background-color: red;
 }
 .page{
-font-weight: 300;
-display: flex;
-justify-content: space-between;
-background-color: rgb(48, 44, 44);
-font-size: 15px;
-color: white;
-border-top: 4px solid red;
+    margin-top 50px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 44, 44);
+    font-size: 15px;
+    color: white;
+    border-top: 4px solid red;
 
 }
 .page p{
     margin-right: 40px;
     margin-left: 200px;
+    margin-top: 20px;
 }
