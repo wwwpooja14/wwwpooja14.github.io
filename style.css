@@ -194,22 +194,22 @@ p{
     font-size: 22px;
     
    justify-content: flex;
-    flex: wrap;
+    
     padding-top: 50px;
-    margin-left: 350px;
+    margin-left: 3px;
     margin-top: 30px;
    margin-bottom: 30px;
 }
 .shop a{
-    display: block;
-    float: left;
+    
+    
     margin:5px;
-    justify-content: space-between;
+    
    
 }
 .media{
     margin: 16px;
-    justify-content: space-between;
+    
 }
 .media:hover{
     transition: padding 0.5s linear;
