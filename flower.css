@@ -28,22 +28,7 @@
     transform: rotate(-60deg);
 
 }
-.eye1{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 20px solid blue;
-    background-color: gray;
-    
-}
-.eye2{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 20px solid blue;
-    background-color: gray;
-    
-}
+
 
 .leaf1{
     border-radius: 500px 300px 54px 300px;
