@@ -190,7 +190,7 @@ p{
 }
 
 .shop div{
-    color: whitesmoke;
+    color: white;
     font-size: 22px;
     
    justify-content: flex;
@@ -201,33 +201,24 @@ p{
    margin-bottom: 30px;
 }
 .shop a{
-    
-    
+    color: white;
+    text-decoration: none;
     margin:5px;
     
    
 }
 .media{
     margin: 16px;
-    
+    color: white;
 }
 .media:hover{
     transition: padding 0.5s linear;
     padding-top: 10px;
     padding-bottom: 20px;
+    color: white;
 }
 
 
-/*i{
-    color: white;
-    font-size: 12px;
-}
-a{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    
-}*/
 
 hr{
     margin-top: 400px;
