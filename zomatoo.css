@@ -10,7 +10,6 @@ header{
     
     justify-content: space-between;
     display: flex;
-    position: absolute fixed;
 }
 .flex-container nav{
     margin-top: 0px;
@@ -56,41 +55,43 @@ h2{
     
 }
 
+
 .location{
     font-size: 20px;
     
     
     padding: 7px;
     padding-top: 15px;;
-    align-items: center;
+    
     border-radius:3px;
-    left: 350px;
+   
     outline: none;
 }
 .loco{
     color:tomato;
-    position: ;
+   margin-top: 10px;
     margin-left: 320px;
 }
 .search{
     font-size:15px;
     
     padding: 7px;
-    padding-top: 15px;
+    padding-top: 16px;
     padding-right: 30px;
     align-items: center;
     border-radius: 3px;
-    left: 580px;
-    top:380px;
+   
     width: 24%;
     height: 22px;
     outline: none;
     border: 1px solid white;
 }
-.icon a{
-    position: absolute;
-     
-    
+button{
+    width: 46px;
+    height: 48px;
+    background-color: tomato;
+    color: white;
+    margin-right: 2px;   
 }
 .media{
     margin: 2px;
@@ -181,3 +182,9 @@ h3{
     margin-left:700px;
     margin-top: -400px;
 }
+.asdf p{
+    margin-left: 720px;
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgb(66, 62, 62);
+} 

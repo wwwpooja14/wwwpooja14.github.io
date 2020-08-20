@@ -8,6 +8,13 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:700 &amp;display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <meta content="width=device-width, initial-scale=1" name="viewport">
+        <script>
+            function showNavigation(){
+               var links = document.querySelector(".links");
+
+               links.portfolio.display = "block";
+            }
+        </script>
     </head>
     <body>
 
@@ -18,10 +25,14 @@
 
                 </div>
 
-                <nav>
+                <nav class="links">
                     <a href="#"> About</a>
                     <a href="#">Work</a>
                     <a href="#">Contact</a>
+                </nav>
+
+                <nav class="icon">
+                    <i class="fa fa-bars fa-2x" onclick="showNavigation()"></i>
                 </nav>
             </div>
         </header>

@@ -4,12 +4,13 @@
     font-family: 'Poppins',sans-serif;
 }
 
+
 .flex-container{
     background-color:rgb(234,60,83);
     height: 70px;
     justify-content: space-between;
     display: flex;
-    position: absolute fixed;
+    
 }
 .logo{
     margin-top: 11px;
@@ -18,7 +19,7 @@
     
 }
 
-nav a{
+nav.links a{
     color: white;
     font-size: 25px;
     text-decoration: none;
@@ -30,6 +31,21 @@ nav a{
     padding-right: 10px;
     padding-left: 10px;
 
+}
+nav.icon{
+    padding-top:10px;
+    color: white;
+    display: none;
+    
+}
+@media(max-width:600px){
+    nav.links{
+        display: none;
+    }
+    nav.icon{
+        color: white;
+        display: block;
+    }
 }
 nav a:hover{
     background-color: rgb(46, 128, 155); ;
@@ -123,19 +139,19 @@ h2{
     font-size: 27px;
     
    justify-content: flex;
+   margin-left:360px; 
+   
     
-    padding-top: 50px;
-    
-    text-align: center;
+ 
     
 }
 .shop a{
     color: white;
     text-decoration: none;
     margin: 20px;
-    display: block;
+    
     float: left;
-    margin-left: 10rem;
+    margin-left: 10px;
     margin-top :10px;
   
 }
@@ -162,7 +178,7 @@ hr{
 }
 .page p{
     color: white;
-    margin-right: 40px;
-    margin-left: 20px;
+
+ 
     margin-top: 20px;
 }
