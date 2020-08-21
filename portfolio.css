@@ -18,6 +18,9 @@
     margin-bottom: 2px;
     
 }
+nav ul li{
+    display: inline;
+}
 
 nav.links a{
     color: white;
@@ -47,8 +50,9 @@ nav.icon{
         display: block;
     }
 }
-nav a:hover{
-    background-color: rgb(46, 128, 155); ;
+nav  a:hover{
+    background-color: rgb(46, 128, 155); 
+
 }
 /* --- section--- name----*/
 .font{
@@ -165,20 +169,4 @@ hr{
     
     background-color: red;
 }
-.page{
-    color: white;
-    font-weight: 300;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(48, 44, 44);
-    font-size: 15px;
-    color: white;
-    border-top: 4px solid red;
 
-}
-.page p{
-    color: white;
-
- 
-    margin-top: 20px;
-}
