@@ -133,7 +133,7 @@ h2{
     color: white;
     background-color: rgb(48, 44, 44);
 }
-h2{
+h2.and{
     padding-top: 100px;
     font-size: 75px;
 }
