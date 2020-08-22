@@ -2,7 +2,7 @@
 .flower{
     width: 380px;
     height: 130px;
-    background-color: red;
+    background-color: rgb(104, 104, 240);
     border-radius: 50px;
     margin-top: 200px;
     margin-left: 150px;
@@ -13,7 +13,7 @@
     position: absolute;
     width: 380px;
     height: 130px;
-    background-color: red;
+    background-color: rgb(104, 104, 240);
     border-radius:50px;
     transform: rotate(60deg);
 }
@@ -23,7 +23,7 @@
     position: absolute;
     width: 380px;
     height: 130px;
-    background-color: red;
+    background-color: rgb(104, 104, 240);
     border-radius:50px;
     transform: rotate(-60deg);
 
@@ -53,12 +53,12 @@
     margin-left: 50px;
 }
 .pot-bottom{
-    width: 250px;
+    width: 186px;
     height: 500px;
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
     border-top: 130px solid brown;
-    margin-left: 50px;
+    margin-left: 78px;
     
 }
 .rod{
