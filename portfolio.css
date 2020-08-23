@@ -8,9 +8,10 @@
 .flex-container{
     background-color:rgb(234,60,83);
     height: 70px;
+    width: 100%;
     justify-content: space-between;
     display: flex;
-    
+    position: fixed;
 }
 .logo{
     margin-top: 11px;
