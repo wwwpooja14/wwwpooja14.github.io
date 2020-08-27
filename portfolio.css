@@ -136,38 +136,29 @@ h2{
 }
 h2.and{
     padding-top: 100px;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .shop div{
     color: white;
     font-size: 27px;
-    
    justify-content: flex;
-   margin-left:360px; 
-   
-    
- 
-    
+   margin-top: 60px;
 }
 .shop a{
     color: white;
     text-decoration: none;
-    margin: 20px;
-    
-    float: left;
-    margin-left: 10px;
-    margin-top :10px;
+     margin:4px;
   
 }
 
 .media:hover{
     transition: padding 0.5s linear;
-    padding-top: 40px;
+    
 }
 /*----page last section----*/
-hr{
-    
-    background-color: red;
-}
 
+.as{
+    margin-top: 20px;
+    color: white;
+}
