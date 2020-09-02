@@ -11,8 +11,18 @@
         <script>
             function showNavigation(){
                var links = document.querySelector(".links");
-
-               links.portfolio.display = "block";
+               var icon = documentument.querySelector(".icon i ")
+               if(nav.style.display =='block')
+               {
+                   nav.style.display ='none';
+                   icon.classlist.remove('fa-close');
+                   icon.classlist.add('fa-bars');
+               }
+               else{
+                   nav.style.display='block';
+                   icon.classlist.remove('fa-bars');
+                   icon.classlist.add('fa-close')
+               }
             }
         </script>
     </head>
