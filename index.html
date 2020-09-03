@@ -9,21 +9,24 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <script>
-            function showNavigation(){
-               var links = document.querySelector(".links");
-               var icon = documentument.querySelector(".icon i ")
-               if(nav.style.display =='block')
-               {
-                   nav.style.display ='none';
-                   icon.classlist.remove('fa-close');
-                   icon.classlist.add('fa-bars');
-               }
-               else{
-                   nav.style.display='block';
-                   icon.classlist.remove('fa-bars');
-                   icon.classlist.add('fa-close')
-               }
+             function showNavigation(){
+            var links = document.querySelector(".links");
+            var icons = document.querySelector(".icon i");
+            if (links.style.display=='block'){
+                links.style.display ="block";
+            icon.classList.remove("fa-close");
+            icon.classList.add("fa-bars") ;   
             }
+            else{
+                links.style.display ="block";
+            icon.classList.remove("fa-bars");
+            icon.classList.add("fa-close") ;   
+            }
+            
+
+            icon.classList.remove(" fa-bars");
+            icon.classList.add("fa-close")
+        }
         </script>
     </head>
     <body>
@@ -36,14 +39,15 @@
                 </div>
 
                 <nav class="links">
-                    <a href="#"> About</a>
-                    <a href="#">Work</a>
-                    <a href="#">Contact</a>
+                    <a href="#">home</a>
+                    <a href="#">about</a>
+                    <a href="#">work</a>
                 </nav>
-
+         
                 <nav class="icon">
                     <i class="fa fa-bars fa-2x" onclick="showNavigation()"></i>
                 </nav>
+                
             </div>
         </header>
         <section>
