@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> zomatoo colon</title>
-        <link href="zomatoo.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Raleway:700 &amp;display=swap" rel="stylesheet">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        </head>
-        <body>
-           <header>
-            <div class="flex-container"></div>
-                <nav>
-                    <a href="first.html">login</a>
-                    <a href="https://www.zomato.com/cebu">signup</a>
-                    <a href="#" class="get"><i class="fa fa-mobile fa-2x"></i>get the app</a>
-                </nav>
-            </div> 
-            <div>
-                <h1> 
-                    zomato
-                </h1>
-                <h2>
-                    Discover the best food & drinks in cebu
-                </h2>
-            </div>
-            <div class="form">
-                <a href="#" class="loco"><i class="fa fa-location-arrow fa-2x"></i></a>
-                 <select id="dropdown" name="role" class="location"  placeholder="cebu" required="">
+
+<head>
+    <title> zomatoo colon</title>
+    <link href="zomatoo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700 &amp;display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body>
+    <header>
+        <div class="flex-container"></div>
+        <nav>
+            <a href="first.html">login</a>
+            <a href="https://www.zomato.com/cebu">signup</a>
+            <a href="#" class="get"><i class="fa fa-mobile fa-2x"></i>get the app</a>
+        </nav>
+        </div>
+        <div>
+            <h1>
+                zomato
+            </h1>
+            <h2>
+                Discover the best food & drinks in cebu
+            </h2>
+        </div>
+        <div class="form">
+            <a href="#" class="loco"><i class="fa fa-location-arrow fa-2x"></i></a>
+            <select id="dropdown" name="role" class="location" placeholder="cebu" required="">
                   <option disabled="" selected="" value="">cebu</option>
                   <option value="location">Direct current location</option>
                   <option value="location">Hisar,haryana</option>
@@ -146,24 +148,27 @@
              <div class="app">
                 <h3> Get the Zomato app</h3>
               
-              <p> 
+              <p class="title"> 
                   we will send you a link , open it on your phone to download<br>
                   the app
               </p>
-            
-           
-             
-              <div class="info">
-                  <label for="Email">
-                    <input name="user-recommend" id="Email" value="not-sure" type="radio" class="input-radio">
-                    Email
-                    </label>
-                         
-                    <label for="phone">
-                       <input name="user-recommend" id="phone" value="not-sure" type="radio" class="input-radio">
-                       Phone no
-                    </label>
+              <div class="radio-type">
+                  <div class="radio-box">
+                       <label for="Email">
+                          <input name="user-recommend" id="Email" value="not-sure" type="radio" class="input-radio">
+                           Email
+                          <span class="tick-mark"></span>
+                        </label>
+                    </div>
+                    <div class="radio-box">
+                         <label for="phone">
+                           <input name="user-recommend" id="phone" value="not-sure" type="radio" class="input-radio">
+                            Phone no
+                           <span class="tick-mark"></span>
+                        </label>
+                    </div>
                 </div>
+            
               <div class="check">
                    <div class="address">
                       <input type="email" name="Name" placeholder="mail mobilno" value="text you enter">
@@ -175,21 +180,61 @@
               
              </div>
           </section>
+
           <section>
-              <div class="head">
-                  <h1>Explore Other options For You Here</h1>
-                  <h3>Popular cuisines near me</h3>
-              
-                 <nav>
-                     <a href="https://www.zomato.com/american-restaurants-near-me">.American-restaurent</a>
-                     <a href="https://www.zomato.com/asian-restaurants-near-me">.Asian-restaurents</a>
-                     <a href="https://www.zomato.com/bakery-restaurants-near-me">.Bakery-restaurents</a>
-                     <a href="https://www.zomato.com/beverages-restaurants-near-me">.Beverages-resturents</a>
-                     <a href="https://www.zomato.com/chinese-restaurants-near-me">.Chinese-restaurent</a>
-                  </nav>
+            <div class="explore">
+                <div class="explore-head">Explore other options for you here</div>
+                <div class="explore-subtitle">Popular cuisines near me</div>
+                <div class="foods-near">
+                    <p class="me">
+                       <a href="">American food near me</a>
+                        <a href="">Asian food near me</a>
+                        <a href="">Bakery food near me</a>
+
+                        <a href="">Beverages food near me</a>
+                        <a href="">Chinies food near me</a>
+                        <a href="">Coffee food near me</a>
+
+                        <a href="">Desserts food near me</a>
+                        <a href="">European food near me</a>
+
+                        <a href="">Filipino food near me</a>
+                        <a href="">Finger Food food near me</a>
+                        <a href="">Grill food near me</a>
+
+                        <a href="">Ice Cream food near me</a>
+                        <a href="">Italian food near me</a>
+                        <a href="">Japanese food near me</a>
+                         <a href="">Ramen food near me</a>
+
+                         <a href="">Seafood food near me</a>
+                        <a href="">Street food near me</a>
+                         <a href="">Tea food near me</a>
+
+                    </p>
                 </div>
-          </section>
+                <div class="explore-subtitle">Popular restaurants near me</div>
+                <div class="foods-near">                                            
+                     <p class="me">
+                        <a href="">Bakery near me</a>
+                        <a href="">Bars near me</a>
+                        <a href="">Beverage shopsnear me</a>
+                        <a href="">Cafe near me</a>
+                        <a href="">Casual Dining near me</a>
+                        <a href="">Clubs near me</a>
+                        <a href="">Dessert parlors near me</a>
+                        <a href="">Fine dining near me</a>
+                        <a href="">food court near me</a>
+                        <a href="">Quick Bites near me</a>
+                        <a href="">Wine bars near me</a>
+                        
+                    </p>
+                </div>
+               
+                 
+                
+            </div>
+        </section>
+         
         </body>
 </html>
-
-
