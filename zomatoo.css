@@ -5,8 +5,10 @@
 }
 
 header {
-    background-image: url(image/zomato1.png);
-    height: 620px;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .flex-container {
@@ -46,7 +48,7 @@ h1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    margin-top: 208px;
+    margin-top: 80px;
 }
 
 h2 {
@@ -100,6 +102,9 @@ button {
     top: 390px;
 }
 
+
+/*---container---*/
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -108,13 +113,12 @@ button {
 
 .box {
     margin-top: 30px;
-    border: 1px solid black;
+    border: 1px solid gainsboro;
     border-radius: 15px;
     margin-right: 35px;
 }
 
 .image {
-    display: flex;
     flex-wrap: wrap;
     height: 202px;
     width: 537px;
@@ -123,7 +127,6 @@ button {
 }
 
 .image2 {
-    display: flex;
     flex-wrap: wrap;
     height: 202px;
     width: 537px;
@@ -165,7 +168,7 @@ button {
 }
 
 .box2 {
-    border: 1px solid black;
+    border: 1px solid gainsboro;
     border-radius: 15px;
     margin-right: 35px;
 }
@@ -176,6 +179,13 @@ button {
     display: flex;
     flex-wrap: wrap;
     border-radius: 8px;
+}
+
+.div {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: gray;
 }
 
 .contect {
@@ -267,21 +277,21 @@ input[type="email" i] {
 }
 
 input:checked~.tick-mark {
-    border: 2px solid rgb(224, 99, 15);
+    border: 2px solid rgb(224, 15, 67);
     position: absolute;
     top: 0px;
 }
 
 input:checked~.tick-mark:after {
     content: "";
-    width: 8px;
-    height: 8px;
-    background-color: rgb(224, 99, 15);
+    width: 12px;
+    height: 12px;
+    background-color: rgb(224, 15, 67);
     display: block;
     border-radius: 50%;
     position: absolute;
-    top: 3.2px;
-    left: 3.2px;
+    top: 1.2px;
+    left: 1.1px;
 }
 
 .radio-box {
@@ -319,6 +329,14 @@ input:checked~.tick-mark:after {
     text-decoration: none;
     color: black;
     padding: 10px;
+}
+
+.me i {
+    position: relative;
+    margin-right: 11px;
+    top: -3px;
+    font-size: 4px;
+    color: rgb(130, 130, 130);
 }
 
 .foods {}
