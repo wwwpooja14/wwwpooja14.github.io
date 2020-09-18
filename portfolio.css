@@ -1,62 +1,65 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-
-.flex-container{
-    background-color:rgb(234,60,83);
+.flex-container {
+    background-color: rgb(234, 60, 83);
     height: 70px;
     width: 100%;
     justify-content: space-between;
     display: flex;
     position: fixed;
 }
-.logo{
+
+.logo {
     margin-top: 11px;
     margin-left: 15px;
     margin-bottom: 2px;
-    
 }
-nav ul li{
+
+nav ul li {
     display: inline;
 }
 
-nav.links a{
+nav.links a {
     color: white;
     font-size: 25px;
     text-decoration: none;
     margin-right: 40px;
     height: 71%;
-    float:left;
+    float: left;
     margin-top: 2px;
     padding-top: 18px;
     padding-right: 10px;
     padding-left: 10px;
-
 }
-nav.icon{
-    padding-top:10px;
+
+nav.icon {
+    padding-top: 10px;
     color: white;
     display: none;
-    
 }
-@media(max-width:600px){
-    nav.links{
+
+@media(max-width:600px) {
+    nav.links {
         display: none;
     }
-    nav.icon{
+    nav.icon {
         color: white;
         display: block;
     }
 }
-nav  a:hover{
-    background-color: rgb(46, 128, 155); 
 
+nav a:hover {
+    background-color: rgb(46, 128, 155);
 }
+
+
 /* --- section--- name----*/
-.font{
+
+.font {
     height: 600px;
     background-color: rgb(41, 43, 44);
     text-align: center;
@@ -64,113 +67,134 @@ nav  a:hover{
     display: flex;
     align-items: center;
 }
-h1{
+
+h1 {
     font-size: 3.5rem;
     font-weight: 10;
     color: white;
 }
-@media(max-width:600px){
-    h1{
+
+@media(max-width:600px) {
+    h1 {
         font-size: 45px;
     }
 }
-p{
+
+p {
     font-style: italic;
-    color:  rgb(234,60,83);
+    color: rgb(234, 60, 83);
 }
+
+
 /*----section----comtainer---*/
-section{
+
+section {
     background-color: teal;
     margin: auto;
-
 }
-h2{
+
+h2 {
     text-align: center;
     color: white;
     font-size: 38px;
     padding-top: 55px;
 }
+
+
 /*----container----image---*/
-.container{
-    
+
+.container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
-    margin-top: 20px;
-    
-    
 }
-.box{
-    width: 30%;
-    
-    margin: 20px;
-    
+
+@media(max-width:600px) {
+    .container {
+        margin-left: 50px;
+    }
 }
-@media(max-width:600px){
-    .box{
+
+.box {
+    margin-bottom: 20px;
+}
+
+@media(max-width:600px) {
+    .box {
         width: 100%;
     }
 }
-.box img{
+
+.box img {
     border-radius: 10px;
-    width: 100%;
+    width: 400px;
+    display: block;
     height: 243px;
 }
-.box a{
-   color: white;
-   text-decoration: none;
+
+.box a {
+    color: white;
+    text-decoration: none;
 }
-.text{
-    width: 100%;
+
+.text {
+    width: 400px;
     text-align: center;
-    font-size: 19px; 
-    font-style:'Poppins', sans-serif ;
+    font-size: 19px;
+    font-style: 'Poppins', sans-serif;
     text-decoration: nonr;
     background-color: rgb(58, 49, 49);
     color: whitesmoke;
     padding-bottom: 14px;
     padding-top: 14px;
-    
 }
-.code{
-    color:  rgb(58, 49, 49);;
+
+.code {
+    color: rgb(58, 49, 49);
+    ;
     transition: color 0.5s ease-in-out;
 }
-.text:hover .code{
+
+.text:hover .code {
     color: orangered;
 }
+
+
 /*---footer----*/
-.footer{
+
+.footer {
     text-align: center;
     color: white;
     background-color: rgb(48, 44, 44);
 }
-h2.and{
+
+h2.and {
     padding-top: 100px;
     font-size: 50px;
 }
 
-.shop div{
+.shop div {
     color: white;
     font-size: 27px;
-   justify-content: flex;
-   margin-top: 60px;
+    justify-content: flex;
+    margin-top: 60px;
 }
-.shop a{
+
+.shop a {
     color: white;
     text-decoration: none;
-     margin:4px;
-  
+    margin: 4px;
 }
 
-.media:hover{
+.media:hover {
     transition: padding 0.5s linear;
-    
 }
+
+
 /*----page last section----*/
 
-.as{
+.as {
     margin-top: 20px;
     color: white;
 }
