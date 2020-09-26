@@ -135,7 +135,7 @@ h2 {
 
 @media(max-width:600px) {
     .box img {
-        width: 220px;
+        width: 260px;
     }
 }
 
@@ -158,7 +158,7 @@ h2 {
 
 @media(max-width:600px) {
     .text {
-        width: 220px;
+        width: 2560px;
     }
 }
 
